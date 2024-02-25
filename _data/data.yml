@@ -9,7 +9,7 @@ sidebar:
 
     # Profile information
     name: Cristian Suárez
-    tagline: Backend Developer
+    tagline: Full-Stack Developer
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -54,10 +54,9 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Años de exp., area de expertise, tipos de empresa en las que trabaje.
-      Actividades y logros
-      
-      Competencias profesionales.
+      A software developer with 10 years of experience analyzing requirements from clients and developing abstract and efficient solutions, using an organized work ethic.
+
+      Uses a team-oriented approach to solving problems, with coaching skills based on first principles thinking.
 
 education:
     title: Education
