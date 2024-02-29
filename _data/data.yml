@@ -28,7 +28,7 @@ sidebar:
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: # url to pdf (https://pdflayer.com/, https://www.web2pdfconvert.com/, etc)
+    pdf: https://drive.google.com/uc?export=download&id=1yx8599nRSuebCLORGIpHUAVoh7X_5CdE
 
     languages:
       title: Languages
