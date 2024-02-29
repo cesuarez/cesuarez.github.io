@@ -108,7 +108,7 @@ certifications:
           details: |
             A B2 First qualification proves you have the language skills to live and work independently in an English-speaking country or study on courses taught in English.
 
-projects:
+#projects:
 #    title: Projects
 #    intro: 
 #    assignments:
@@ -138,7 +138,7 @@ skills:
       - name: HTML - JS - CSS
         level: 70%
 
-publications:
+#publications:
     # title: Publications
     # intro: |
     #   You can list your publications in this section. Lorem ipsum dolor sit
@@ -150,7 +150,7 @@ publications:
     #     authors: Donald E. Knuth
     #     conference: Addison-Wesley, 1968
 
-oss:
+#oss:
     # title: OSS Contributions
     # intro: >
     #   You can list your open source software contributions in this
