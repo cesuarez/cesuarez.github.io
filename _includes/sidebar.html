@@ -1,6 +1,14 @@
 {% assign sidebar = site.data.data.sidebar %}
 <div class="sidebar-wrapper">
-
+  {% for language in site.languages %}
+    {% if page.i18n != language %}
+      <a href="/{{ language }}">
+        <img height="20p" src="{{ site.baseurl }}/assets/images/flags/{{ language }}.svg" alt="{{ language }}" />
+      </a>
+    {% endif %}
+      
+  {% endfor %}
+  
   <div class="profile-container">
 
     {% if sidebar.avatar %}

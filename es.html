@@ -1,8 +1,8 @@
 ---
-layout: print
-permalink: /print
-i18n: en
+layout: default
+i18n: es
 ---
+
 
 {% include career-profile.html %}
 {% unless site.data.data.sidebar.education %}
@@ -11,3 +11,10 @@ i18n: en
 {% include experiences.html %}
 {% include certifications.html %}
 {% include skills.html %}
+
+
+{% comment %}
+  {% include projects.html %}
+  {% include oss-contributions.html %}
+  {% include publications.html %}
+{% endcomment %}
