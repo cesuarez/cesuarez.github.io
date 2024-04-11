@@ -13,6 +13,7 @@ $sidebar-order: 1;
 $resume-order: 1;
 $sidebar-order: 2;
 {% endif %}
+$languages: {{ site.languages | size }};
 
 @import "skins/{{ site.theme_skin | default: 'blue' }}"; // skin
 @import "default"; // main partials
