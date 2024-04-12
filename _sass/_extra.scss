@@ -15,7 +15,7 @@
   100% {
     -webkit-transform: translatey(0px) scale(1);
             transform: translatey(0px) scale(1);
-    opacity: 0.9;
+    opacity: 0.8;
   }
 }
 @keyframes come-in {
@@ -35,7 +35,7 @@
   100% {
     -webkit-transform: translatey(0px) scale(1);
             transform: translatey(0px) scale(1);
-    opacity: 0.9;
+    opacity: 0.8;
   }
 }
 
@@ -48,7 +48,7 @@
   margin: 35px 25px;
 }
 .floating-container:hover {
-  height: 165px;
+  height: $languages*55+55px;
 }
 .floating-container:hover .floating-button {
   box-shadow: 0 10px 13px -5px rgba(44, 179, 240, 0.6);
@@ -102,12 +102,24 @@
   -webkit-transform: translateY(100px);
           transform: translateY(100px);
 }
+.floating-container .float-element {
+  box-shadow: 0 10px 10px -8px rgba(54, 54, 54, 0.6);
+}
 .floating-container .float-element .flag {
   width:45px;
   height:45px;
 }
-.floating-container .float-element {
-  box-shadow: 0 10px 10px -8px rgba(54, 54, 54, 0.6);
+.floating-container .element-container .float-element:hover {
+  opacity: 1 !important;
+}
+.floating-container .float-element:hover .flag {
+  //box-shadow: 0 10px 10px -8px rgba(44, 179, 240, 0.6);
+  width:50px;
+  height:50px;
+  -webkit-transform: translatex(-2px);
+          transform: translatex(-2px);
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
 }
 
 
