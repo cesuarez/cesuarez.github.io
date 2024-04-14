@@ -1,40 +1,28 @@
 @-webkit-keyframes come-in {
   0% {
-    -webkit-transform: translatey(100px);
-            transform: translatey(100px);
-    opacity: 0;
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
   }
   30% {
-    -webkit-transform: translateX(-50px) scale(0.4);
-            transform: translateX(-50px) scale(0.4);
-  }
-  70% {
-    -webkit-transform: translateX(0px) scale(1.2);
-            transform: translateX(0px) scale(1.2);
+    opacity: 0;
   }
   100% {
-    -webkit-transform: translatey(0px) scale(1);
-            transform: translatey(0px) scale(1);
+    -webkit-transform: translatey(-100px) scale(1);
+            transform: translatey(-100px) scale(1);
     opacity: 0.8;
   }
 }
 @keyframes come-in {
   0% {
-    -webkit-transform: translatey(100px);
-            transform: translatey(100px);
-    opacity: 0;
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
   }
   30% {
-    -webkit-transform: translateX(-50px) scale(0.4);
-            transform: translateX(-50px) scale(0.4);
-  }
-  70% {
-    -webkit-transform: translateX(0px) scale(1.2);
-            transform: translateX(0px) scale(1.2);
+    opacity: 0;
   }
   100% {
-    -webkit-transform: translatey(0px) scale(1);
-            transform: translatey(0px) scale(1);
+    -webkit-transform: translatey(-100px) scale(1);
+            transform: translatey(-100px) scale(1);
     opacity: 0.8;
   }
 }
@@ -55,13 +43,13 @@
   -webkit-transform: translatey(5px);
           transform: translatey(5px);
   -webkit-transition: all 0.2s;
-  transition: all 0.2s;
+          transition: all 0.2s;
 }
 
 @for $i from 1 through $languages {
   .floating-container:hover .element-container .float-element:nth-child(#{$i}) {
-    -webkit-animation: come-in 0.4s forwards $i*0.1s;
-            animation: come-in 0.4s forwards $i*0.1s;
+    -webkit-animation: come-in 0.4s forwards (1 + $languages - $i)*0.1s;
+            animation: come-in 0.4s forwards (1 + $languages - $i)*0.1s;
   }
 }
 
@@ -93,6 +81,7 @@
   width: 45px;
   height: 45px;
   margin: 10px auto;
+  top: 100px;
   //color: white;
   //font-weight: 500;
   //text-align: center;
@@ -113,7 +102,6 @@
   opacity: 1 !important;
 }
 .floating-container .float-element:hover .flag {
-  //box-shadow: 0 10px 10px -8px rgba(44, 179, 240, 0.6);
   width:50px;
   height:50px;
   -webkit-transform: translatex(-2px);
