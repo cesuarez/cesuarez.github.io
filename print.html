@@ -5,7 +5,7 @@ i18n: en
 ---
 
 {% include career-profile.html %}
-{% unless site.data.data.sidebar.education %}
+{% unless site.data[page.i18n].sidebar.education %}
   {% include education.html %}
 {% endunless %}
 {% include experiences.html %}
