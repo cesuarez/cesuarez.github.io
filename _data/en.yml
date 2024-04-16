@@ -9,7 +9,7 @@ sidebar:
     # Profile information
     name: Cristian Suárez
     tagline: Full-Stack Developer
-    avatar: profile.jpeg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    avatar: profile.jpeg
 
     # Sidebar links
     email: cris.eze.sua@gmail.com
@@ -27,7 +27,8 @@ sidebar:
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: https://drive.google.com/uc?export=download&id=1yx8599nRSuebCLORGIpHUAVoh7X_5CdE
+    pdf-text: Download as PDF
+    pdf-link: https://drive.google.com/uc?export=download&id=1yx8599nRSuebCLORGIpHUAVoh7X_5CdE
 
     languages:
       title: Languages
@@ -83,7 +84,7 @@ experiences:
           Participated in different projects from multiple clients, related to the following industries:
             - Tourism
             - Hospitality
-            - Retail
+            - E-commerce
 
           Built restful APIs that served multiple javascript applications, that stored data for 500.000+ end users, using DBs like MySQL, Elasticsearch and Redis.
 
@@ -91,7 +92,7 @@ experiences:
 
           Other responsibilities outside of coding:
             - Participated in planning and retrospective meetings with clients, and analyzed the requirements with them
-            - Was in charge of a small team (tasks management, code reviews, testing, deployments, maintenance)
+            - Was in charge of a project with a small team (tasks management, code reviews, testing, deployments, maintenance)
             - Provided mentorship and coaching to interns for 4+ years
       
       - role: Teacher Assistant
@@ -108,7 +109,7 @@ experiences:
 certifications:
       title: Certifications
       list:
-        - name: First Certificate in English
+        - name: English Level B2 (CEFR)
           start: 2008
           end: 
           organization: Cambridge University
@@ -116,7 +117,7 @@ certifications:
           credentialurl: www.cambridgeenglish.org/exams-and-tests/first/
           credentialname: B2 First
           details: |
-            A B2 First qualification proves you have the language skills to live and work independently in an English-speaking country or study on courses taught in English.
+            An english B2 qualification proves you have the language skills to live and work independently in an English-speaking country or study on courses taught in English.
 
 #projects:
 #    title: Projects

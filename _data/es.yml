@@ -8,8 +8,8 @@ sidebar:
 
     # Profile information
     name: Cristian Suárez
-    tagline: Full-Stack Developer
-    avatar: profile.jpeg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    tagline: Desarrollador Full-Stack
+    avatar: profile.jpeg
 
     # Sidebar links
     email: cris.eze.sua@gmail.com
@@ -27,10 +27,11 @@ sidebar:
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: https://drive.google.com/uc?export=download&id=1yx8599nRSuebCLORGIpHUAVoh7X_5CdE
+    pdf-text: Descargar como PDF
+    pdf-link: https://drive.google.com/uc?export=download&id=1yx8599nRSuebCLORGIpHUAVoh7X_5CdE
 
     languages:
-      title: Languages
+      title: Idiomas
       info:
         - idiom: Español
           level: Nativo
@@ -51,72 +52,72 @@ sidebar:
           link:
 
 career-profile:
-    title: Career Profile
+    title: Perfil Profesional
     summary: |
-      A software developer with 10 years of experience analyzing requirements from clients and developing abstract and efficient solutions, using an organized work ethic.
+      Desarrollador de Software con más de 10 años de experiencia analizando requerimientos de clientes y desarrollando soluciones abstractas y eficientes, con una ética de trabajo organizada.
 
-      Uses a team-oriented approach to solving problems, with coaching skills based on first principles thinking.
+      Buscando siempre soluciones a problemas con un enfoque orientado al trabajo en equipo, y con habilidades para la enseñanza y entrenamiento de nuevos miembros de equipo.
 
 education:
-    title: Education
+    title: Educación
     info:
-      - degree: MSc in Computing
+      - degree: Licenciatura en Informática
         link: https://www.unq.edu.ar/carrera/58-licenciatura-en-informatica
-        university: National University of Quilmes
-        time: 2012 - 2018 (on hold)
+        university: Universidad Nacional de Quilmes
+        time: 2012 - 2018 (pausada)
         details: |
-          [Career information](https://www.unq.edu.ar/carrera/58-licenciatura-en-informatica/)
-      - degree: MSc in Computer Programming
+          [Información de la carrera](https://www.unq.edu.ar/carrera/58-licenciatura-en-informatica/)
+      - degree: Tecnicatura en Programación Informática
         link: https://www.unq.edu.ar/carrera/32-tecnicatura-universitaria-en-programacion-informatica
-        university: National University of Quilmes
+        university: Universidad Nacional de Quilmes
         time: 2008 - 2012
         details: |
-          [Career information](https://www.unq.edu.ar/carrera/32-tecnicatura-universitaria-en-programacion-informatica)
+          [Información de la carrera](https://www.unq.edu.ar/carrera/32-tecnicatura-universitaria-en-programacion-informatica)
           
 experiences:
-    title: Experience
+    title: Experiencia
     info:
-      - role: Senior Software Developer
-        time: 2013 - Present
+      - role: Desarrollador de Software Senior
+        time: 2013 - Presente
         company: Trinomio, Buenos Aires
         details: |
-          Participated in different projects from multiple clients, related to the following industries:
-            - Tourism
-            - Hospitality
-            - Retail
+          Participación en diferentes proyectos provenientes de múltiples clientes, relacionados a las siguientes industrias:
+            - Turismo
+            - Hotelería
+            - E-commerce
 
-          Built restful APIs that served multiple javascript applications, that stored data for 500.000+ end users, using DBs like MySQL, Elasticsearch and Redis.
+          Armado de APIs REST que sirven a múltiples aplicaciones en Javascript, y guardan datos de más de 500.000 usuarios finales, utilizando Bases de Datos como MySQL, Elasticsearch y Redis.
 
-          Developed a custom library that was used in multiple projects, saving us time when we needed to build new projects quickly.
+          Desarrollada biblioteca propia que fue utilizada en múltiples proyectos, ahorrando tiempo al momento de crear nuevos proyectos rápidamente.
 
-          Other responsibilities outside of coding:
-            - Participated in planning and retrospective meetings with clients, and analyzed the requirements with them
-            - Was in charge of a small team (tasks management, code reviews, testing, deployments, maintenance)
-            - Provided mentorship and coaching to interns for 4+ years
+          Otras responsabilidades además de programar:
+            - Participación en reuniones de Planeamiento y Retrospectiva con clientes, y análisis de requerimientos con los mismos.
+            - Estuve a cargo de un proyecto con un equipo chico (manejo de tareas, revisión de código, testeo, despliegue, mantenimiento).
+            - Ofrecí entrenamiento y tutoría por más de 4 años a nuevos empleados.
       
-      - role: Teacher Assistant
+      - role: Instructor Docente
         time: 2017
-        company: National University of Quilmes - Videogames Development
+        company: Universidad Nacional de Quilmes - Desarrollo de Videojuegos
         details: |
-          Tasks performed:
-          - Researched new topics and discussed them with other teachers
-          - Prepared lessons with interactive material
-          - Assisted with answering students questions
-          - Was involved with the students throughout long assignments
-          - Provided exams correction and feedback
+          Tareas realizadas:
+          - Investigación y discusión de nuevos temas con otros profesores
+          - Preparación de clases con material interactivo
+          - Aclaración de dudas que tuviesen los alumnos
+          - Acompañamiento a los alumnos durante trabajos prácticos extensos
+          - Corrección de exámenes con críticas constructivas
 
 certifications:
-      title: Certifications
+      title: Certificaciones
       list:
-        - name: First Certificate in English
+        - name: Nivel B2 en Inglés (CEFR)
           start: 2008
           end: 
-          organization: Cambridge University
+          organization: Universidad de Cambridge
           credentialid: 
           credentialurl: www.cambridgeenglish.org/exams-and-tests/first/
           credentialname: B2 First
           details: |
-            A B2 First qualification proves you have the language skills to live and work independently in an English-speaking country or study on courses taught in English.
+            Con la certificación de nivel B2, demuestras ante el mundo que posees las habilidades lingüísticas necesarias para vivir y trabajar de manera independiente en un país angloparlante, así como, para estudiar cursos impartidos en inglés.
 
 #projects:
 #    title: Projects
@@ -127,7 +128,7 @@ certifications:
 #        tagline: "A responsive website template designed to help startups promote, market and sell their products."
 
 skills:
-    title: Skills
+    title: Aptitudes
 
     toolset:
       - name: Php & Laravel
