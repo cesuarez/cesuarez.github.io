@@ -1,0 +1,176 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Cristian Suárez
+    tagline: Full-Stack Developer
+    avatar: profile.jpeg
+
+    # Sidebar links
+    email: cris.eze.sua@gmail.com
+    phone: 
+    timezone: 
+    citizenship:
+    website:  #do not add http://
+    linkedin: ce-suarez
+    xing: 
+    github: cesuarez
+    telegram: # add your nickname without '@' sign
+    gitlab:
+    bitbucket:
+    twitter: # add the '@' before the nickname
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
+    pdf-text: Download as PDF
+    pdf-link: https://drive.google.com/uc?export=download&id=1yx8599nRSuebCLORGIpHUAVoh7X_5CdE
+
+    languages:
+      title: Languages
+      info:
+        - idiom: Spanish
+          level: Native
+          
+        - idiom: English
+          level: Professional
+
+    interests:
+      title: Interests
+      info:
+        - item: 
+          link: 
+
+        - item: 
+          link:
+
+        - item: 
+          link:
+
+career-profile:
+    title: Career Profile
+    summary: |
+      A software developer with 10 years of experience analyzing requirements from clients and developing abstract and efficient solutions, using an organized work ethic.
+
+      Uses a team-oriented approach to solving problems, with coaching skills based on first principles thinking.
+
+education:
+    title: Education
+    info:
+      - degree: MSc in Computing
+        link: https://www.unq.edu.ar/carrera/58-licenciatura-en-informatica
+        university: National University of Quilmes
+        time: 2012 - 2018 (on hold)
+        details: |
+          [Career information](https://www.unq.edu.ar/carrera/58-licenciatura-en-informatica/)
+      - degree: MSc in Computer Programming
+        link: https://www.unq.edu.ar/carrera/32-tecnicatura-universitaria-en-programacion-informatica
+        university: National University of Quilmes
+        time: 2008 - 2012
+        details: |
+          [Career information](https://www.unq.edu.ar/carrera/32-tecnicatura-universitaria-en-programacion-informatica)
+          
+experiences:
+    title: Experience
+    info:
+      - role: Senior Software Developer
+        time: 2013 - Present
+        company: Trinomio, Buenos Aires
+        details: |
+          Participated in different projects from multiple clients, related to the following industries:
+            - Tourism
+            - Hospitality
+            - E-commerce
+
+          Built restful APIs that served multiple javascript applications, that stored data for 500.000+ end users, using DBs like MySQL, Elasticsearch and Redis.
+
+          Developed a custom library that was used in multiple projects, saving us time when we needed to build new projects quickly.
+
+          Other responsibilities outside of coding:
+            - Participated in planning and retrospective meetings with clients, and analyzed the requirements with them
+            - Was in charge of a project with a small team (tasks management, code reviews, testing, deployments, maintenance)
+            - Provided mentorship and coaching to interns for 4+ years
+      
+      - role: Teacher Assistant
+        time: 2017
+        company: National University of Quilmes - Videogames Development
+        details: |
+          Tasks performed:
+          - Researched new topics and discussed them with other teachers
+          - Prepared lessons with interactive material
+          - Assisted with answering students questions
+          - Was involved with the students throughout long assignments
+          - Provided exams correction and feedback
+
+certifications:
+      title: Certifications
+      list:
+        - name: English Level B2 (CEFR)
+          start: 2008
+          end: 
+          organization: Cambridge University
+          credentialid: 
+          credentialurl: www.cambridgeenglish.org/exams-and-tests/first/
+          credentialname: B2 First
+          details: |
+            An english B2 qualification proves you have the language skills to live and work independently in an English-speaking country or study on courses taught in English.
+
+#projects:
+#    title: Projects
+#    intro: 
+#    assignments:
+#      - title: Velocity
+#        link: "#"
+#        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+skills:
+    title: Skills
+
+    toolset:
+      - name: Php & Laravel
+        level: 97%
+
+      - name: MySQL
+        level: 95%
+
+      - name: Python
+        level: 95%
+
+      - name: Docker
+        level: 85%
+
+      - name: AngularJS
+        level: 75%
+
+      - name: HTML - JS - CSS
+        level: 70%
+
+#publications:
+    # title: Publications
+    # intro: |
+    #   You can list your publications in this section. Lorem ipsum dolor sit
+    #   amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+    #   bibendum fringilla a eu lectus.
+    # papers:
+    #   - title: The Art of Computer Programming
+    #     link: "#"
+    #     authors: Donald E. Knuth
+    #     conference: Addison-Wesley, 1968
+
+#oss:
+    # title: OSS Contributions
+    # intro: >
+    #   You can list your open source software contributions in this
+    #   section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    #   Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    # contributions:
+    #   - title: Tempo
+    #     link: "#"
+    #     tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+footer: >
+    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

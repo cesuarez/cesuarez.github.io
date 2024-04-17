@@ -1,0 +1,20 @@
+---
+layout: default
+i18n: es
+---
+
+
+{% include career-profile.html %}
+{% unless site.data[page.i18n].sidebar.education %}
+  {% include education.html %}
+{% endunless %}
+{% include experiences.html %}
+{% include certifications.html %}
+{% include skills.html %}
+
+
+{% comment %}
+  {% include projects.html %}
+  {% include oss-contributions.html %}
+  {% include publications.html %}
+{% endcomment %}

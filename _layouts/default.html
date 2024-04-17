@@ -19,6 +19,21 @@
   {% include footer.html %}
 
 {% include scripts.html %}
+
+<div class="floating-container">
+  <i class="fa fa-language floating-button"></i>
+  
+  <div class="element-container">
+  {% for language in site.languages %}
+    <a class="float-element" href="{{ language }}">
+      <img class="flag" src="{{ site.baseurl }}/assets/images/flags/{{ language }}.png" alt="{{ language }}" />
+    </a>
+  {% endfor %}
+
+  </div>
+</div>
+
+
 </body>
 
 </html>
