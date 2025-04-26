@@ -137,18 +137,18 @@ skills:
       - name: MySQL
         level: 95%
 
-      - name: Python
-        level: 95%
-
       - name: Docker
         level: 85%
 
-      - name: AngularJS
-        level: 75%
+      - name: Python
+        level: 85%
+
+      - name: AWS
+        level: 80%
 
       - name: HTML - JS - CSS
         level: 70%
-
+        
 #publications:
     # title: Publications
     # intro: |
